@@ -165,6 +165,7 @@ ytmusic-player-bar ytmusic-menu-renderer paper-icon-button {
 
 ytmusic-player-bar #right-controls #volume-slider {
     opacity: 0.9 !important;
+    pointer-events: initial !important;
 }
 
 ytmusic-player-bar #right-controls #volume-slider #sliderContainer {
