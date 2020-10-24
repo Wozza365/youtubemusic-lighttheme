@@ -1,0 +1,239 @@
+body,
+html {
+    background: #f5f5f5 !important;
+    color: black !important;
+    --ytmusic-detail-header: #1d1c1c !important;
+    --ytmusic-nav-bar: #1d1c1c !important;
+    --yt-spec-text-primary: #1d1c1c !important;
+    --yt-endpoint-visited-color: #1d1c1c !important;
+}
+
+html::-webkit-scrollbar {
+    background: #6b6b6b !important;
+}
+
+html::-webkit-scrollbar-track {
+    background: white !important;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #a0a0a0 !important;
+}
+
+html::-webkit-scrollbar-thumb:active {
+    background: #6b6b6b !important;
+}
+
+ytmusic-detail-header-renderer,
+ytmusic-data-bound-header-renderer {
+    background: #f5f5f5 !important;
+}
+
+ytmusic-data-bound-header-renderer .ytmusic-data-bound-header-renderer {
+    color: black !important;
+}
+
+ytmusic-detail-header-renderer [aria-label="More actions"],
+ytmusic-detail-header-renderer paper-button[aria-label="Edit playlist"] yt-icon {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+yt-formatted-string,
+a {
+    color: #212121 !important;
+}
+
+ytmusic-responsive-list-item-renderer,
+ytmusic-list-item-renderer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+ytmusic-list-item-renderer .ytmusic-list-item-renderer {
+    color: black !important;
+}
+
+ytmusic-responsive-list-item-renderer:hover {
+    transition: 0.1s;
+    background: #eeeeee !important;
+}
+
+ytmusic-playlist-shelf-renderer,
+ytmusic-data-bound-section-renderer {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+
+ytmusic-nav-bar .left-content [aria-label="Home"] {
+    background: url(https://play-music.gstatic.com/fe/aa1d36d090084eb930e7980d07426111/play_music.svg);
+    padding: 8px;
+    border-radius: 5px;
+    width: 170px;
+    height: 48px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+ytmusic-nav-bar .left-content [aria-label="Home"] picture {
+    display: none !important;
+}
+
+ytmusic-menu-popup-renderer {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+ytmusic-menu-popup-renderer paper-listbox,
+ytmusic-nav-bar {
+    background: white !important;
+}
+
+ytmusic-menu-popup-renderer paper-listbox ytmusic-menu-navigation-item-renderer:hover,
+ytmusic-menu-popup-renderer paper-listbox ytmusic-menu-service-item-renderer:hover,
+ytmusic-menu-popup-renderer paper-listbox ytmusic-toggle-menu-service-item-renderer:hover {
+    background: #eeeeee !important;
+}
+
+ytmusic-responsive-list-item-renderer ytmusic-menu-renderer.menu paper-icon-button[role="button"],
+ytmusic-responsive-list-item-renderer #button.ytmusic-menu-renderer {
+    opacity: 0.05;
+}
+
+ytmusic-responsive-list-item-renderer:hover ytmusic-menu-renderer.menu paper-icon-button[role="button"],
+ytmusic-responsive-list-item-renderer:hover #button.ytmusic-menu-renderer {
+    opacity: 1;
+    color: black;
+}
+
+ytmusic-mealbar-promo-renderer {
+    background: white !important;
+    box-shadow: 0 0px 20px 2px rgba(0, 0, 0, 0.37) !important;
+    border-radius: 2px !important;
+}
+ytmusic-mealbar-promo-renderer h2 {
+    color: black !important;
+}
+
+iron-dropdown.ytmusic-popup-container ytd-multi-page-menu-renderer {
+    background: white !important;
+}
+
+iron-dropdown.ytmusic-popup-container ytd-active-account-header-renderer {
+    background: white !important;
+}
+
+ytd-compact-link-renderer:hover {
+    background: #eeeeee !important;
+}
+
+ytmusic-player-page#player-page .ytmusic-player-page {
+    background: #f5f5f5 !important;
+}
+
+ytmusic-player-bar {
+    background: white;
+}
+
+ytmusic-player-bar #left-controls .previous-button svg path,
+ytmusic-player-bar #left-controls .next-button svg path {
+    fill: black !important;
+}
+
+ytmusic-player-bar #left-controls .play-pause-button {
+    background: #ff5722;
+    border-radius: 99px;
+}
+
+ytmusic-player-bar #left-controls .time-info {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 1px 16px 0 20px !important;
+}
+
+ytmusic-app-layout > [slot=nav-bar] {
+    width: 100vw !important;
+}
+
+ytmusic-player-bar ytmusic-like-button-renderer paper-icon-button,
+ytmusic-player-bar ytmusic-menu-renderer paper-icon-button {
+    color: black !important;
+    fill: black !important;
+}
+
+ytmusic-player-bar #right-controls #volume-slider {
+    opacity: 0.9 !important;
+}
+
+ytmusic-player-bar #right-controls #volume-slider #sliderContainer {
+    margin: 0 5px !important;
+}
+
+ytmusic-player-bar #right-controls #volume-slider #primaryProgress {
+    background: black !important;
+}
+
+ytmusic-player-bar #right-controls #volume-slider #sliderKnob .slider-knob-inner {
+    background: black !important;
+}
+
+ytmusic-player-bar #right-controls paper-icon-button iron-icon {
+    color: black !important;
+    fill: black !important;
+}
+
+ytmusic-search-box {
+    color: black !important;
+    background: white !important;
+}
+
+ytmusic-search-box[opened] .search-container .search-box {
+    background: #f5f5f5 !important;
+}
+
+ytmusic-search-box[opened] #suggestions {
+    background: white !important;
+}
+
+ytmusic-search-box[opened] #suggestions ytmusic-search-suggestion {
+    background: white !important;
+}
+
+ytmusic-search-box[opened] #suggestions ytmusic-search-suggestion:hover {
+    background: #eeeeee !important;
+}
+
+ytmusic-search-suggestions-section.ytmusic-search-box {
+    border-top: 1px solid #ccc;
+}
+
+ytmusic-search-box[opened] #input::placeholder {
+    color: black !important;
+}
+
+ytmusic-search-box[opened] {
+    border: 0 !important;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+ytmusic-tab-renderer iron-label {
+    color: black !important;
+}
+
+ytmusic-player-page paper-tab {
+    color: black !important;
+}
+
+ytmusic-navigation-button-renderer[button-style=STYLE_OUTLINE_BORDER] button.ytmusic-navigation-button-renderer {
+    border: 1px solid #eeeeee !important;
+}
+
+ytmusic-item-section-tab-renderer[selected="true"] yt-formatted-string {
+    border-bottom: 2px solid black !important;
+}
+
+ytmusic-list-item-renderer .ytmusic-play-button-renderer {
+    color: black !important;
+}
