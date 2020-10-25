@@ -1,0 +1,30 @@
+ytmusic-data-bound-header-renderer {
+    background: #f5f5f5 !important;
+
+    .ytmusic-data-bound-header-renderer {
+        color: #212121 !important;
+    }
+
+    [aria-label="Add to library"] {
+        yt-icon {
+            color: #212121 !important;
+        }
+    }
+
+    ytmusic-menu-renderer {
+        iron-icon {
+            color: #212121 !important;
+        }
+    }
+}
+
+ytmusic-data-bound-section-renderer {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+
+ytmusic-list-item-renderer .ytmusic-play-button-renderer {
+    color: #212121 !important;
+}

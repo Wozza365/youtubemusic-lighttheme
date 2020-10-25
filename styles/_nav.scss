@@ -1,0 +1,29 @@
+ytmusic-nav-bar {
+    background: white !important;
+
+    .left-content [aria-label="Home"] {
+        background: url(https://play-music.gstatic.com/fe/aa1d36d090084eb930e7980d07426111/play_music.svg);
+        padding: 8px;
+        border-radius: 5px;
+        width: 170px;
+        height: 48px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        picture {
+            display: none !important;
+        }
+    }
+}
+
+
+iron-dropdown.ytmusic-popup-container{
+    ytd-multi-page-menu-renderer {
+        background: white !important;
+    }
+
+    ytd-active-account-header-renderer {
+        background: white !important;
+    }
+} 

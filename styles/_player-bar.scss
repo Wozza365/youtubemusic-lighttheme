@@ -1,0 +1,58 @@
+ytmusic-player-bar {
+    background: white;
+
+    #left-controls {
+        .previous-button,
+        .next-button {
+            svg path {
+                fill: black !important;
+            }
+        }
+
+        .play-pause-button {
+            background: #ff5722;
+            border-radius: 99px;
+        }
+
+        .time-info {
+            color: black;
+            font-weight: 500;
+            font-size: 14px;
+            margin: 1px 16px 0 20px !important;
+        }
+    }
+
+    #right-controls {
+        #volume-slider {
+            opacity: 0.9 !important;
+            pointer-events: initial !important;
+
+            #sliderContainer {
+                margin: 0 5px !important;
+            }
+
+            #primaryProgress {
+                background: black !important;
+            }
+
+            #sliderKnob {
+                .slider-knob-inner {
+                    background: black !important;
+                }
+            }
+        }
+
+        paper-icon-button iron-icon {
+            color: black !important;
+            fill: black !important;
+        }
+    }
+
+    ytmusic-like-button-renderer,
+    ytmusic-menu-renderer {
+        paper-icon-button {
+            color: black !important;
+            fill: black !important;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+ytmusic-settings-page {
+    background: white !important;
+
+    .top-bar {
+        border-bottom: 1px solid #212121 !important;
+    }
+
+    .title-wrapper .dialog-title {
+        color: #212121 !important;
+    }
+
+    paper-item {
+        &[aria-selected="true"] {
+            yt-formatted-string {
+                color: white !important;
+            }
+        }
+    }
+
+    [alt="Dismiss"] {
+        color: #212121 !important;
+    }
+
+    .paper-input {
+        color: #212121 !important;
+    }
+}

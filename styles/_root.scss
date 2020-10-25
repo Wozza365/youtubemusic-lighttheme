@@ -1,0 +1,47 @@
+@import "./scroll";
+@import "./playlist";
+@import "./nav";
+@import "./context-menu";
+@import "./promo";
+@import "./player-bar";
+@import "./player-page";
+@import "./search";
+@import "./album";
+@import "./artist";
+@import "./subscribe";
+@import "./settings";
+
+body,
+html {
+    background: #f5f5f5 !important;
+    color: black !important;
+    --ytmusic-detail-header: #1d1c1c !important;
+    --ytmusic-nav-bar: #1d1c1c !important;
+    --yt-spec-text-primary: #1d1c1c !important;
+    --yt-endpoint-visited-color: #1d1c1c !important;
+}
+
+yt-formatted-string,
+a {
+    color: #212121 !important;
+}
+
+ytd-compact-link-renderer:hover {
+    background: #eeeeee !important;
+}
+
+ytmusic-app-layout > [slot=nav-bar] {
+    width: 100vw !important;
+}
+
+ytmusic-tab-renderer iron-label {
+    color: black !important;
+}
+
+ytmusic-navigation-button-renderer[button-style=STYLE_OUTLINE_BORDER] button.ytmusic-navigation-button-renderer {
+    border: 1px solid #eeeeee !important;
+}
+
+ytmusic-item-section-tab-renderer[selected="true"] yt-formatted-string {
+    border-bottom: 2px solid black !important;
+}

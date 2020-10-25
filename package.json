@@ -1,0 +1,25 @@
+{
+  "name": "youtubemusic-lighttheme",
+  "version": "1.0.0",
+  "description": "A light theme for YouTube Music on web with a twist of the classic Google Play Music. This only overrides the styling of the site. It does not alter any functionality, that is not the intention of this.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass styles/_root.scss output.css",
+    "watch": "sass --watch styles/_root.scss output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wozza365/youtubemusic-lighttheme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wozza365/youtubemusic-lighttheme/issues"
+  },
+  "homepage": "https://github.com/Wozza365/youtubemusic-lighttheme#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "sass": "^1.27.0"
+  }
+}

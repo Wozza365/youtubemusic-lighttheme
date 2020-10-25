@@ -1,0 +1,59 @@
+ytmusic-responsive-list-item-renderer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+
+    &:hover {
+        transition: 0.1s;
+        background: #eeeeee !important;
+
+        ytmusic-menu-renderer.menu paper-icon-button[role="button"],
+        #button.ytmusic-menu-renderer {
+            opacity: 1;
+            color: #212121;
+        }
+    }
+
+    ytmusic-menu-renderer.menu {
+        paper-icon-button[role="button"],
+        #button.ytmusic-menu-renderer {
+            opacity: 0.05;
+        }
+
+        ytmusic-like-button-renderer {
+            [aria-pressed="true"] {
+                color: #212121 !important;
+            }
+        }
+    }
+
+}
+
+ytmusic-list-item-renderer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+
+    .ytmusic-list-item-renderer {
+        color: #212121 !important;
+    }
+
+    ytmusic-like-button-renderer {
+        [aria-pressed="true"] {
+            color: #212121 !important;
+        }
+    }
+}
+
+ytmusic-playlist-shelf-renderer {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+}
+
+ytmusic-detail-header-renderer {
+    background: #f5f5f5 !important;
+
+    [aria-label="More actions"],
+    paper-button[aria-label="Edit playlist"] yt-icon {
+        opacity: 1;
+        color: rgba(0, 0, 0, 0.87);
+    }
+}
