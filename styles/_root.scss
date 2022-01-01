@@ -6,55 +6,58 @@
 @author       Wozza365 (https://github.com/Wozza365)
 @homepageURL  https://github.com/Wozza365/youtubemusic-lighttheme/
 @supportURL   https://github.com/Wozza365/youtubemusic-lighttheme/issues
+@updateURL   https://raw.githubusercontent.com/Wozza365/youtubemusic-lighttheme/main/YouTubeMusic-LightTheme.user.css
 @license      unlicense
 ==/UserStyle== */
 
-@import "./vars";
-@import "./scroll";
-@import "./playlist";
-@import "./nav";
-@import "./context-menu";
-@import "./promo";
-@import "./player-bar";
-@import "./player-page";
-@import "./search";
-@import "./album";
-@import "./artist";
-@import "./subscribe";
-@import "./settings";
-@import "./icons";
+@-moz-document domain("music.youtube.com") {
+    @import "./vars";
+    @import "./scroll";
+    @import "./playlist";
+    @import "./nav";
+    @import "./context-menu";
+    @import "./promo";
+    @import "./player-bar";
+    @import "./player-page";
+    @import "./search";
+    @import "./album";
+    @import "./artist";
+    @import "./subscribe";
+    @import "./settings";
+    @import "./icons";
 
-body,
-html {
-    background: $light-background;
-    color: $dark-text;
-    --ytmusic-detail-header: $dark-text;
-    --ytmusic-nav-bar: $dark-text;
-    --yt-spec-text-primary: $dark-text;
-    --yt-endpoint-visited-color: $dark-text;
-}
+    body,
+    html {
+        background: $light-background;
+        color: $dark-text;
+        --ytmusic-detail-header: $dark-text;
+        --ytmusic-nav-bar: $dark-text;
+        --yt-spec-text-primary: $dark-text;
+        --yt-endpoint-visited-color: $dark-text;
+    }
 
-yt-formatted-string,
-a {
-    color: $dark-text;
-}
+    yt-formatted-string,
+    a {
+        color: $dark-text;
+    }
 
-ytd-compact-link-renderer:hover {
-    background: $light-background;
-}
+    ytd-compact-link-renderer:hover {
+        background: $light-background;
+    }
 
-ytmusic-app-layout > [slot=nav-bar] {
-    width: 100vw !important;
-}
+    ytmusic-app-layout > [slot=nav-bar] {
+        width: 100vw !important;
+    }
 
-ytmusic-tab-renderer iron-label {
-    color: $dark-text;
-}
+    ytmusic-tab-renderer iron-label {
+        color: $dark-text;
+    }
 
-ytmusic-navigation-button-renderer[button-style=STYLE_OUTLINE_BORDER] button.ytmusic-navigation-button-renderer {
-    border: 1px solid $light-background;
-}
+    ytmusic-navigation-button-renderer[button-style=STYLE_OUTLINE_BORDER] button.ytmusic-navigation-button-renderer {
+        border: 1px solid $light-background;
+    }
 
-ytmusic-item-section-tab-renderer[selected="true"] yt-formatted-string {
-    border-bottom: 2px solid $dark-text;
+    ytmusic-item-section-tab-renderer[selected="true"] yt-formatted-string {
+        border-bottom: 2px solid $dark-text;
+    }
 }
