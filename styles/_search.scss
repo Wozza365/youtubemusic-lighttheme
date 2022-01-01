@@ -1,24 +1,15 @@
-ytmusic-search-box {
-    color: black !important;
-    background: white !important;
+@import "./vars";
+
+.ytmusic-search-box {
+    color: $dark-text;
+    background: $light-background;
+    border: 0 !important;
     &[opened] {
         border: 0 !important;
         box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
 
         .search-container .search-box {
-            background: #f5f5f5 !important;
-        }
-
-        #suggestions {
-            background: white !important;
-
-            ytmusic-search-suggestion {
-                background: white !important;
-
-                &:hover {
-                    background: #eeeeee !important;
-                }
-            }
+            background: $light-background;
         }
     }
 
@@ -34,4 +25,17 @@ ytmusic-search-box {
 
 ytmusic-search-suggestions-section {
     border-top: 1px solid #ccc !important;
+}
+
+
+#suggestions, ytmusic-search-suggestion {
+    background:  $light-background;
+
+    ytmusic-search-suggestion {
+        background:  $light-background;
+
+        &:hover {
+            background: $light-hover;
+        }
+    }
 }

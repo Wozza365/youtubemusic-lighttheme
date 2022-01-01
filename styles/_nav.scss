@@ -27,3 +27,27 @@ iron-dropdown.ytmusic-popup-container{
         background: white !important;
     }
 } 
+
+tp-yt-paper-listbox {
+    background: $light-background;
+
+    > *:hover {
+        background: $light-hover;
+
+        a {
+            background: $light-hover;
+        }
+    }
+}
+
+ytmusic-menu-renderer {
+    color: $dark-text;
+}
+
+tp-yt-paper-icon-button {
+    opacity: 0.8 !important;
+}
+
+ytmusic-tabs.stuck {
+    background: $light-hover;
+}
