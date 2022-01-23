@@ -10,6 +10,8 @@ If you want to turn it off, click the Stylus extension icon and then "Turn all s
 
 Feel free to edit the styles to your liking, contribute with a pull request or raise an issue or do whatever the hell you like with it :)
 
-# Future plans
-Replace with SCSS for easier editing.
-Possibly convert into a Chrome extension if there's enough interest.
+Sample images:
+![Explore page](.readme/screenshot1.png)
+![Now playing](.readme/screenshot2.png)
+![Context menu](.readme/screenshot3.png)
+![Album view](.readme/screenshot2.png)
