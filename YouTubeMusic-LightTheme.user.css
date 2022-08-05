@@ -195,6 +195,9 @@ ytmusic-player-bar ytmusic-menu-renderer paper-icon-button {
     color: black !important;
     border-bottom: 1px solid #ff794e;
   }
+  ytmusic-player-page tp-yt-paper-tab.iron-selected {
+    background-color: white;
+  }
 
   .ytmusic-search-box {
     color: #212121 !important;
