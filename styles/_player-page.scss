@@ -11,4 +11,13 @@ ytmusic-player-page {
     paper-tab {
         color: black !important;
     }
+    
+    tp-yt-paper-tab {
+        color: black !important;
+        border-bottom: 1px solid #ff794e;
+
+        &.iron-selected {
+            background-color: white;
+        }
+    }
 } 
