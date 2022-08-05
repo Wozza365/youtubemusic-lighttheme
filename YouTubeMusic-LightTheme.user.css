@@ -142,6 +142,9 @@ ytmusic-menu-popup-renderer paper-listbox ytmusic-toggle-menu-service-item-rende
   ytmusic-player-bar {
     background: white;
   }
+  ytmusic-player-bar #progress-bar #sliderContainer #primaryProgress {
+    background: #ff794e !important;
+  }
   ytmusic-player-bar #left-controls .previous-button svg path,
 ytmusic-player-bar #left-controls .next-button svg path {
     fill: black !important;
@@ -187,6 +190,10 @@ ytmusic-player-bar ytmusic-menu-renderer paper-icon-button {
   }
   ytmusic-player-page paper-tab {
     color: black !important;
+  }
+  ytmusic-player-page tp-yt-paper-tab {
+    color: black !important;
+    border-bottom: 1px solid #ff794e;
   }
 
   .ytmusic-search-box {

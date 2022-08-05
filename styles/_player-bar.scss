@@ -1,6 +1,14 @@
 ytmusic-player-bar {
     background: white;
 
+    #progress-bar {
+        #sliderContainer {
+            #primaryProgress {
+                background: #ff794e !important;
+            }
+        }
+    }
+    
     #left-controls {
         .previous-button,
         .next-button {
